@@ -6,7 +6,7 @@ import ListDetail from "./ListDetail";
 function Assignment1() {
   return (
     <div>
-      <h2>
+      <h2 className="text">
         Assignment 1 - Display List, Counter Button and Realtime Date & Time
       </h2>
       <ListDetail />

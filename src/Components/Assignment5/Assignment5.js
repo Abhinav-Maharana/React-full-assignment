@@ -3,7 +3,7 @@ import AxiosPagination from "./AxiosPagination";
 
 function Assignment5() {
   return (
-    <div>
+    <div className="text">
       <h2>Assignment 5: Axios Pagination</h2>
       <AxiosPagination />
     </div>

@@ -11,7 +11,7 @@ class CounterButton extends React.Component {
 
   render() {
     return (
-      <div className="">
+      <div className="text">
         <h3 className="">Increment Button</h3>
         <div>
           <button

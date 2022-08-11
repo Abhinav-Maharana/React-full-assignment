@@ -9,9 +9,9 @@ class ListDetail extends Component {
   }
   render() {
     return (
-      <div className="space-y-2 mt-2">
-        <h3 className="text-2xl font-bold">Displaying String Array as List</h3>
-        <ul className="text-xl space-y-2">
+      <div className="text">
+        <h3 className="">Displaying String Array as List</h3>
+        <ul className="">
           {this.state.list.map((item, index) => (
             <li key={index}>{item}</li>
           ))}

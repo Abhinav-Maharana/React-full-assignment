@@ -4,4 +4,9 @@
 
 .title {
   text-align: center;
+  color: white;
+}
+
+.text {
+  color: white;
 }

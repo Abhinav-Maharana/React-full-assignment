@@ -50,7 +50,7 @@ class AccordionClass extends Component {
                 <p>{item.visible ? "-" : "+"}</p>
               </div>
               {item.visible ? (
-                <div className="accordion-content1">
+                <div className="accordion-content1 text">
                   <p>{item.content}</p>
                 </div>
               ) : (

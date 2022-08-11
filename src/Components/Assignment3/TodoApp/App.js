@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import FormTodo from "./FormTodo";
 import Todo from "./Todo";
+import "./Todoapp.css";
 import { Card } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [todos, setTodos] = useState([
@@ -29,7 +30,7 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1 className="text-center mb-4">Todo List</h1>
+        <h1 className="text">Todo List</h1>
         <FormTodo addTodo={addTodo} />
         <div>
           {todos.map((todo, index) => (

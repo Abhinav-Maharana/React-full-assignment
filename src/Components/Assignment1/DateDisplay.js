@@ -6,8 +6,8 @@ class DateDisplay extends Component {
   };
   render() {
     return (
-      <div className="mt-2">
-        <h3 className="text-3xl font-bold">
+      <div className="text">
+        <h3 className="">
           Current Date and Time is : {this.state.currentDate}
         </h3>
       </div>
