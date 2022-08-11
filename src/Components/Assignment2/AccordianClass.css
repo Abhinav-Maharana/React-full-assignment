@@ -1,0 +1,48 @@
+.accordion1 {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.accordion1 .active,
+.accordion1:hover {
+  background-color: #161618;
+}
+
+.accordion-content1 {
+  box-sizing: border-box;
+  padding: 0 12px;
+  background-color: #000;
+  overflow: hidden;
+  text-align: left;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2%;
+}
+
+table td,
+th {
+  border: 1px solid #cacaca;
+  text-align: left;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+table tr:nth-child(even) {
+  background-color: #141416;
+}

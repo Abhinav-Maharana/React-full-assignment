@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.css";
 
 class CounterButton extends React.Component {
   constructor(props) {
@@ -10,22 +11,32 @@ class CounterButton extends React.Component {
 
   render() {
     return (
-      <div className="component-container space-y-5">
-        <h3 className="text-3xl font-bold">Increment Button</h3>
-        <div className="align-items">
+      <div className="">
+        <h3 className="">Increment Button</h3>
+        <div>
           <button
             onClick={() =>
               this.setState((prevState) => {
                 return { count: prevState.count + 1 };
               })
             }
-            className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+            variant="primary"
           >
-            Click Me
+            Increase
           </button>
-          <label className="text-lg" style={{ paddingLeft: 8 }}>
+          <label className="" style={{ paddingLeft: 12 }}>
             {this.state.count}
           </label>
+          <button
+            onClick={() =>
+              this.setState((prevState) => {
+                return { count: prevState.count - 1 };
+              })
+            }
+            variant="primary"
+          >
+            Decrease
+          </button>
         </div>
       </div>
     );
