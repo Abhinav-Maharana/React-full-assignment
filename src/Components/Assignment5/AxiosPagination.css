@@ -1,0 +1,20 @@
+.posts-container h1 {
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.posts-container > div {
+  padding: 18px;
+  box-sizing: border-box;
+  background-color: #323232;
+  margin-bottom: 18px;
+  border-radius: 12px;
+}
+
+.pg-number-container > span {
+  font-size: 18px;
+  color: #daa520;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 9px;
+}
